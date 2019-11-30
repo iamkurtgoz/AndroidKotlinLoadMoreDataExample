@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="?actionBarSize"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/list_item_text_row_textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/app_name"
+        android:gravity="center|start"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+</LinearLayout>
